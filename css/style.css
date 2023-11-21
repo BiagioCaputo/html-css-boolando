@@ -94,8 +94,6 @@ header{
 .card{
     padding: 1rem;
     flex-basis:calc(100% / 3);
-    border: 2px dashed black;
-    background-color: brown;
     min-height: 300px;
 }
 
