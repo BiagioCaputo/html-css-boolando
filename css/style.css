@@ -152,6 +152,17 @@ header{
 .price span{
     color:black;
     text-decoration: line-through;
+    font-weight: normal;
+}
+
+.card:hover {
+    text-shadow: 5px 5px 5px lightgray;
+
+
+}
+
+.card i:hover{
+    color:red;
 }
 /*footer*/
 
