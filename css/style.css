@@ -108,11 +108,34 @@ footer{
 
 .footer-box{
     height: 90px;
-    border:2px dashed white;
+    color:white;
+    justify-content: space-between;
 }
 
 .footer-box >*{
-    border:2px dashed white;
     height: 80px;
     width: 90px;
+}
+
+.information {
+    flex-grow: 1;
+    line-height: 2;
+    margin-top: 18px;
+    
+}
+
+.information a{
+    font-size: 13px;
+    margin-right:5px;
+}
+
+.contacts{
+    flex-grow: 1;
+    text-align: end;
+    line-height: 2;
+    margin-top: 20px;
+}
+
+h5{
+    margin-right: 10px;
 }
