@@ -11,9 +11,23 @@ body{
 }
 
 main{
-    padding: 70px 0;
+    padding-top: 140px;
+    padding-bottom: 80px;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+i{
+    color: white;
+}
 /*Utili*/
 
 .container{
@@ -35,23 +49,40 @@ main{
 
 header{
     background-color:darkorange;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .nav-bar{
     height: 80px;
     display:flex;
     justify-content: space-between;
-    align-items: center;
 
 }
 
 .nav-bar > *{
     flex-basis:20%;
     height: 20px;
-    padding:10px 0;
-
 }
 
+.gender > a{
+    font-size: 20px;
+}
+
+.gender{
+    padding: 25px 0;
+    
+}
+
+.logo{
+    padding: 15px 0;
+}
+
+.account-bar{
+    padding: 25px 0;
+    text-align: right;
+}
 
 /*main*/
 
@@ -76,7 +107,6 @@ footer{
 }
 
 .footer-box{
-    justify-content: space-between;
     height: 90px;
     border:2px dashed white;
 }
