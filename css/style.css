@@ -96,7 +96,9 @@ header{
 }
 
 /*main*/
-
+.img-hover{
+    display: none;
+}
 .row{
     margin: 0 -1rem;
     flex-wrap: wrap;
@@ -157,8 +159,17 @@ header{
 
 .card:hover {
     text-shadow: 5px 5px 5px lightgray;
+    
+}
 
+.card:hover .img-main{
+    display: none;
+    
+}
 
+.card:hover .img-hover{
+    display: inline-block;
+    
 }
 
 .card i:hover{
