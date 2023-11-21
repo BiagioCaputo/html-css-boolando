@@ -45,13 +45,13 @@ i{
 
 .starter{
     position: absolute;
-    bottom:40px;
+    bottom:100px;
     left:0;
 }
 
 .after{
     position: absolute;
-    bottom:40px;
+    bottom:100px;
     left:60px;
 }
 
@@ -126,8 +126,33 @@ header{
 
 }
 
+.card i{
+    position: absolute;
+    right: 15px;
+    top:25px;
+    color:black;
+    background-color: white;
+
+}
 
 
+.brand{
+    font-size: 12px;
+}
+
+.wearing-type{
+    font-weight: bold;
+}
+
+.price{
+    color:red;
+    font-weight: bold;
+}
+
+.price span{
+    color:black;
+    text-decoration: line-through;
+}
 /*footer*/
 
 footer{
