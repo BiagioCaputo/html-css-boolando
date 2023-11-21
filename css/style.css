@@ -1,0 +1,50 @@
+/* CSS Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Generali*/
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*Utili*/
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
+
+
+/*Header*/
+
+header{
+    background-color:darkorange;
+}
+
+.nav-bar{
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-bar > *{
+    flex-basis:20%;
+    height: 20px;
+    padding:10px 0;
+
+}
