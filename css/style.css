@@ -28,6 +28,10 @@ img{
 i{
     color: white;
 }
+
+ul{
+    list-style-type: none;
+}
 /*Utili*/
 
 .container{
@@ -63,36 +67,37 @@ header{
     width: 100%;
     position: fixed;
     top: 0;
+    box-shadow: 0 1px 3px lightgrey;
 }
 
 .nav-bar{
     height: 80px;
-    display:flex;
-    justify-content: space-between;
+    align-items: center;
 
 }
 
 .nav-bar > *{
-    flex-basis:20%;
-    height: 20px;
+    flex-basis:calc(100%/3);
 }
 
-.gender > a{
+.gender a{
     font-size: 20px;
 }
 
-.gender{
-    padding: 25px 0;
+.nav-bar ul{
+    display: flex;
+    gap:20px;  
+}
+
+.logo img{
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+.account-bar ul{
+    justify-content: flex-end;
     
-}
-
-.logo{
-    padding: 15px 0;
-}
-
-.account-bar{
-    padding: 25px 0;
-    text-align: right;
 }
 
 /*main*/
